@@ -11,6 +11,18 @@ const App = () => {
         <meta name="keywords" content="asilbekh uz, asilbek, haydarov, asilbek.uz, asilbekuz" />
         <meta property="og:title" content="Asilbekh.uz" />
       </Helmet>
+      <Helmet>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Personal",
+        "name": "Asilbek's portfolio",
+        "url": "https://www.asilbekh.uz/"
+      }
+    `}
+  </script>
+</Helmet>
   
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
